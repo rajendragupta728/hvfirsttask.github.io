@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link  rel="stylesheet" href="style.css" />
+    <title>HOROSCOPE</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css">
+    
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+</head>
+<body>
+    <div id="header">  
+        <div id="heading">
+            <h1 align="center">Your Horoscope Says...</h1>
+        </div>
+        <br>
+        <div align="center" id="nav-bar">
+            <nav>
+                <button class="btn-roll1" id="start"><i class="ion-ios-loop"></i>Aries</button>
+                <button class="btn-roll2" id ="bg"> <i class="ion-ios-loop"></i>Taurus</button>
+                <button class="btn-roll3" id ="bg"><i class="ion-ios-loop"></i>Gemini</button>
+                <button class="btn-roll4" id ="bg"><i class="ion-ios-loop"></i>Cancer</button>
+                <button class="btn-roll5" id ="bg"><i class="ion-ios-loop"></i>Leo</button>
+                <button class="btn-roll6" id ="bg"><i class="ion-ios-loop"></i>Virgo</button>
+                <button class="btn-roll7" id ="bg"><i class="ion-ios-loop"></i>Libra</button>
+                <button class="btn-roll8" id ="bg"><i class="ion-ios-loop"></i>Scorpio</button>
+                <button class="btn-roll9" id ="bg"><i class="ion-ios-loop"></i>Sagittarius</button>
+                <button class="btn-roll10" id ="bg"><i class="ion-ios-loop"></i>Capricorn</button>
+                <button class="btn-roll11" id ="bg"><i class="ion-ios-loop"></i>Aquarius</button>
+                <button class="btn-roll12" id ="bg"><i class="ion-ios-loop"></i>Pisces</button>
+               </nav> 
+        </div>
+      
+      
+    </div>
+    <br>
+
+    <div id="pics"  align="center">
+        <img src="Layer 12.jpg"  style="padding: 25px;" alt="Pic" class="Pic">
+    </div>
+    <div align="center" id="up">
+        <a href="#" class="btn " id="new">With Power</a>
+        <a href="#" class="btn " id="new1">Zero Power</a>
+    </div>
+    <br>
+
+    <section>
+        <h1 class="h1">What Are You In The Mood For?</h1>
+        <div class="wrapper">
+            <div align="center">
+            <div class="carousel owl-carousel">
+                <div class="card card-1" style="width: 18rem;">
+                    <img src="Beauty.jpg" class="card-img-top" alt=a1>
+                    <div class="card-body">
+                        <h5 class="card-title">Daily Gorgeous</h5>
+                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet voluptatem
+                            omnis cumque.</p>
+                        <a href="#" class="btn btn-secondary">Zero Power</a>
+                        <a href="#" class="btn btn-secondary">Zero Power</a>
+                    </div>
+                </div>
+                <div class="card card-2" style="width: 18rem;">
+                    <img src="beauty1.jpeg" class="card-img-top" alt=a1>
+                    <div class="card-body">
+                        <h5 class="card-title">Bold & Beautiful</h5>
+                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet voluptatem
+                            omnis cumque.</p>
+                        <a href="#" class="btn btn-secondary">Zero Power</a>
+                        <a href="#" class="btn btn-secondary">Zero Power</a>
+                    </div>
+                </div>
+                <div class="card card-3" style="width: 18rem;">
+                    <img src="Beauty.jpg" class="card-img-top" alt=a1>
+                    <div class="card-body">
+                        <h5 class="card-title">Daily Gorgeous</h5>
+                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet voluptatem
+                            omnis cumque.</p>
+                        <a href="#" class="btn btn-secondary">Zero Power</a>
+                        <a href="#" class="btn btn-secondary">Zero Power</a>
+                    </div>
+                </div>
+                <div class="card card-4" style="width: 18rem;"">
+                    <img src="beauty1.jpeg" class="card-img-top" alt=a1>
+                    <div class="card-body">
+                        <h5 class="card-title">Bold & Beautiful</h5>
+                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet voluptatem
+                            omnis cumque.</p>
+                        <a href="#" class="btn btn-secondary">Zero Power</a>
+                        <a href="#" class="btn btn-secondary">Zero Power</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        </div>
+    </section>
+    <script>
+        $(".carousel").owlCarousel({
+            margin: 10,
+            loop: true,
+            autoplay: true,
+            autoplayTimeout: 2000, //2000 ms = 2 sec
+            autoplayHoverPause: true,
+            responsive: {
+                0: {
+                    items: 1,
+                    nav: false
+                },
+                600: {
+                    items: 2,
+                    nav: false
+                },
+                1000: {
+                    items: 2,
+                    nav: false
+                }
+            }
+        });
+    </script>
+    <br>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js">
+    </script>
+    <script src="pic1.js"></script>
+</body>
+</html>

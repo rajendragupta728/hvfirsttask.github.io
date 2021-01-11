@@ -1,0 +1,83 @@
+.btn {
+  border-radius: 0%;
+  outline: none;
+}
+#new {
+  color: whitesmoke;
+  background-color: purple;
+}
+#new1 {
+  color: whitesmoke;
+  background-color: purple;
+}
+
+#active {
+  color: white;
+  border: none;
+  outline: none;
+}
+#start {
+  background-color: purple;
+  border: purple;
+  color: white;
+}
+#nav-bar {
+  font-size: 30px;
+  background-color: #cfcdbe;
+}
+#bg {
+  background-color: #cfcdbe;
+  border: none;
+  padding: 0 10px;
+}
+
+.h1 {
+  text-align: center;
+  padding-left: 100px;
+}
+.wrapper {
+  width: 100%;
+}
+.wrapper .carousel {
+  max-width: 1200px;
+  margin: auto;
+  padding-left: 100px;
+}
+
+.carousel .card {
+  line-height: 20px;
+  text-align: left;
+  color: black;
+  font-size: 15px;
+  margin: 20px 0;
+}
+
+.card-title {
+  font-weight: 100;
+  color: 10px solid black;
+}
+.btn {
+  border-radius: 0%;
+  outline: none;
+}
+.owl-dots {
+  text-align: center;
+  margin-top: 45px;
+}
+.owl-dot {
+  height: 15px;
+  width: 45px;
+  border-radius: 25px;
+  cursor: pointer;
+  outline: none;
+  border: 2px solid #0072bc !important;
+  transition: all 0.3s ease;
+}
+.owl-dot:hover,
+.owl-dot.active {
+  background: #0072bc !important;
+}
+img {
+  width: 100%;
+  height: auto;
+}
